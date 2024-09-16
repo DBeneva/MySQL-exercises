@@ -1,10 +1,10 @@
 USE `intro_test`;
 
 CREATE TABLE `employees` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `first_name` varchar(50) DEFAULT NULL,
-  `last_name` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`)
+    `id` int NOT NULL AUTO_INCREMENT,
+    `first_name` varchar(50) DEFAULT NULL,
+    `last_name` varchar(50) DEFAULT NULL,
+    PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `categories`(
